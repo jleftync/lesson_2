@@ -1,0 +1,16 @@
+{
+    "Welcome" : "Welcome to the Monthly Car PaymentCalculator!", 
+    "LoanAmount" : "What is your loan amount total",
+    "NotNumericalValue":"please enter a Numerical Value",
+    "WrongValue" :"Please enter a total in the format of dollars.cents",
+    "LoanDuration" :"Please enter the duration of your loan in years.  \n If loan duration is not in an even number of years, add .083 for each additional month. ",
+    "WrongDuration" : "Please enter your total in the format of a single number",
+    "APRSelect" :"Please enter your APR",
+    "WrongAPR" : "Please enter your APR in the format of a single number",
+    "Result" :"Your monthly payment is {monthly_payment}", 
+    "MoreCalculation" :"Would you like to calculate another loan?",
+    "ChooseYesOrNo" :"You must choose 1 for yes or 2 for no."
+        
+
+
+}

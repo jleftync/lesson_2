@@ -1,13 +1,42 @@
 {
-    "Welcome" : "Welcome to Calculator!",
-    "FirstNumber" : "What's the first number?",
-    "WrongNumber" :"Hmm... that doesn't look like a valid number.",
-    "SecondNumber" : "What's the second number?",
-    "OperationSelect" : "What operation would you like to perform?\n1) Add 2) Subtract 3) Multiply 4) Divide",
-    "CorrectOperation" : "You must choose 1, 2, 3, or 4",
-    "Result" : "The result is {output}",
-    "MoreCalculation" : "Would you like to enter another calculation?",
-    "ChooseYesOrNo" : "You must choose 1 for yes or 2 for no."
+    "Welcome" : {
+        "en":"Welcome to Calculator!",
+        "es":"Bienvenidos al Calculador"
+    },
+    "FirstNumber" : {
+        "en":"What's the first number?",
+        "es":"Cual es el primer numero?"
+    },
+    "WrongNumber" :{
+        "en":"Hmm... that doesn't look like a valid number.",
+        "es":"Pues...eso no parece un numero valido."
+    },
+    "SecondNumber" :{
+        "en":"What's the second number?",
+        "es":"Cual es el segundo numero?"
+    },
+    "OperationSelect" :{ 
+        "en":"What operation would you like to perform?\n1) Add 2) Subtract 3) Multiply 4) Divide",
+        "es":"Cual operation quiere ejecutar? \n1) Anadir 2) Subtraer 3) Multiplicar 4) Dividir"
+    },
+    "CorrectOperation" :{
+         "en":"You must choose 1, 2, 3, or 4",
+         "es":"Se debe escojer 1, 2, 3, o 4"
+    },
+    "Result" :{ 
+        "en": "The result is {output}",
+        "es": "El resultado es {output}"
+    },
+    "MoreCalculation" :{
+        "en":"Would you like to enter another calculation?",
+        "es":"Quiere anadir una calculacion addicional?"}
+    ,
+    "ChooseYesOrNo" :{
+        "en":"You must choose 1 for yes or 2 for no.",
+        "es":"Se debe escojer 1 por si o 2 por no"
+    },
+    "LanguageEntry":"Please enter your preferred language",
+    "UnknownLanguage":"Language Unknown: Please Enter en for English or es for Spanish"
 
 
 }
