@@ -34,15 +34,16 @@ def display_winner(player, computer):
         'l': {'p', 's'},
         's': {'r', 'c'},
     }
+
     prompt(f"You chose {player}, computer chose {computer}")
 
-    if player in winning_cases:
+    if player in winning_cases[computer]:
         player_win_count += 1
         prompt(f"You win.  Player has {player_win_count} wins."
                f"Computer has {computer_win_count} wins")
 
 
-    elif  computer in winning_cases:
+    elif  computer in winning_cases[player]:
 
         computer_win_count += 1
         prompt(f"Computer wins! Player has {player_win_count} wins.  "
@@ -58,7 +59,7 @@ answer = "y"
 
 while answer != "n":
 
-    while computer_win_count < 3 and player_win_count < 3:
+    while computer_win_count in range(3) and player_win_count in range(3):
         prompt(f"Choose one: {", ".join(VALID_CHOICES)}, r "
                "for rock, p for paper, c for scissors, s for spock,"
                 " or l for lizard.")
@@ -77,5 +78,8 @@ while answer != "n":
     while answer not in ("y", "n"):
         prompt("That's not a valid choice")
         answer = input().lower()
+    if answer == "y":
+        computer_win_count = 0
+        player_win_count = 0
 
     
